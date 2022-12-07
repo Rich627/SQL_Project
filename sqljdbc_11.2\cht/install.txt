@@ -1,0 +1,39 @@
+安裝指示
+Microsoft JDBC Driver 11.2 for SQL Server
+
+
+簡介
+------------
+這些是解壓縮 sqljdbc_<版本>_enu.zip 與 
+sqljdbc_<版本>_enu.tar.gz 的指示。
+
+
+WINDOWS
+-------
+1.讀取 license.txt 檔案。下載並使用 Microsoft JDBC Driver 11.2 for SQL Server 即表示接受此授權。
+
+2.將 sqljdbc_<版本>_enu.zip 下載至暫存目錄。
+
+3.解壓縮 sqljdbc_<版本>_enu.zip
+
+4.出現提示時，輸入解壓縮目錄；建議您將
+   此 zip 檔案解壓縮到 %ProgramFiles% 並使用預設目錄：
+
+	Microsoft JDBC DRIVER 11.2 for SQL Server
+
+
+UNIX
+----
+1.讀取 license.txt 檔案。下載並使用 Microsoft JDBC Driver 11.2 for SQL Server 即表示接受此授權。
+
+2.將 sqljdbc_<版本>_enu.tar.gz 下載至暫存目錄。
+
+3.若要將壓縮的 tar 解壓縮，請瀏覽到您要
+   解壓縮驅動程式的目錄，並輸入：
+
+	gzip -d sqljdbc_<版本>_enu.tar.gz
+
+4.若要將 tar 解壓縮，請將其移至您要安裝驅動程式 
+   的目錄，並輸入：
+
+	tar -xf sqljdbc_<版本>_enu.tar
