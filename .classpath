@@ -6,12 +6,12 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/rich/eclipse-workspace/test/sqljdbc_11.2\cht/mssql-jdbc-11.2.1.jre11.jar">
+	<classpathentry kind="lib" path="/Users/rich/eclipse-workspace/project/mssql-jdbc-11.2.1.jre11.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/rich/eclipse-workspace/test/mysql-connector-java-5.1.30.jar">
+	<classpathentry kind="lib" path="/Users/rich/eclipse-workspace/project/mysql-connector-java-5.1.30.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
