@@ -2,8 +2,7 @@ package project;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-//用來產生隨機車牌的套件
-import java.util.Random;
+
 
 public class loginin {
 	private Connection conn;

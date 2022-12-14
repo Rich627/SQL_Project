@@ -1,36 +1,130 @@
 package project;
+import java.util.Random;
 
 public class carid {
-	public static void main(String[] args){
-		
-		int min = 0;
-		int max = 9;
-        int[] arr=new int[121];
-		
-        for(int i=1;i<121;i++){
-            arr[i]=min + (int) (Math.random() * (max-min+1));
-        }
-        
-        for (int i=1;i<121;i++) {
-        	System.out.print(arr[i]);
-        	if (i%4==0) {
-        		System.out.println('\n');
-        	}
-        }
-        
-        String chars = "ABCDEFGHIZKLMNOPQRSTUVWXYZ";
-		char[] arr1=new char[91];
-  
-        for (int j=1; j<91;j++) {
-        	arr1[j]=chars.charAt((int) (Math.random() * 26));
-        }
-        for (int j=1;j<91;j++) {
-        	System.out.print(arr1[j]);
-        	if (j%3==0) {
-        		System.out.println('\n');
-        	}
-        }
-        
- 
-    }
+	
+	public static void main(String[] args) {
+	    Random random = new Random();
+
+	    for (int i = 0; i < 100; i++) {
+	      StringBuilder sb = new StringBuilder();
+	      for (int j = 0; j < 3; j++) {
+	        char c = (char)(random.nextInt(26) + 'A');
+	        sb.append(c);
+	      }
+
+	      for (int j = 0; j < 4; j++) {
+	        int num = random.nextInt(10);
+	        sb.append(num);
+	      }
+	      
+	      System.out.println(sb);
+	       
+	    }  
+	}
 }
+
+
+/*
+Our Result 
+JCO5595
+FUE2739
+MZQ3288
+HNL5181
+SNC0736
+HSK1809
+ZXY3936
+HUU6299
+DIP4584
+ZAX0008
+IVK7659
+QXU4671
+LLK0179
+UNB8954
+AAR4423
+RNG2820
+TIV4114
+HMT7131
+LAY4235
+DKS0230
+EEX3859
+NPI2930
+GIP8808
+ZCA3565
+MYB7988
+IHF2798
+UMX8991
+QIR0530
+FOA2546
+CLH7712
+ZWH5823
+GUJ7682
+QYI6113
+NWL2075
+IVH0231
+CLJ4190
+LCR3306
+FFU9601
+WFK0048
+YQQ3095
+KBD7017
+BPB5157
+OCZ7514
+BPG5968
+OXC9439
+LWT6000
+YCM3954
+TDX0559
+NXM6275
+WVQ4142
+EOE1856
+DGU1991
+SKD0223
+BOQ4802
+HTH6627
+XBD3715
+HPG1027
+ZLW4723
+HKM4656
+FBY6167
+RRR8895
+SRG3531
+NKC5757
+WBE5625
+LXY9663
+RWX6018
+QJM1926
+MWL8473
+POX4515
+OCQ8500
+LUZ3834
+RJD7205
+YOC6842
+JVY8764
+FGW5724
+LJD6576
+IYK5020
+HDJ1263
+WTS0392
+KQA3889
+WES4114
+FZO5553
+HFT7140
+CVD3963
+ZJH1753
+YAH6833
+KTA6000
+MYX8900
+WSD7864
+TII1358
+DUL2227
+ZUZ2268
+KIM8912
+YJK7134
+GOS2768
+XGA9620
+QET2359
+LKG8508
+PJF4690
+AEU3240
+*/
