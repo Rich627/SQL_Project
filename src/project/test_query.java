@@ -17,9 +17,9 @@ public class test_query {
 		  boolean status = !conn.isClosed();
 		  System.out.println("connect status:" + status);
 
-		  //Query action  
+		    
 		  Statement state = conn.createStatement();
-		  String sqlstr = "select * from carid ";
+		  String sqlstr = "select * from data ";
 		  ResultSet rs = state.executeQuery(sqlstr);
 		  
 		  
