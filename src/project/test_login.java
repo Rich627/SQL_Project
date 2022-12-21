@@ -18,19 +18,6 @@ public class test_login {
 		conn = DriverManager.getConnection(urlstr);
 	}
 	
-	public boolean checkLogin(String user, String pwd)  throws SQLException {
-		Statement state = conn.createStatement();
-		String sqlstr = "select * from data = " ;
-	
-		ResultSet rs = state.executeQuery(sqlstr);
-		boolean status = rs.next();
-		rs.close();
-		
-		if(status) {
-			return true;
-		}
-		return false;
-	}
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		while (true){
