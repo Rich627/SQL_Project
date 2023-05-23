@@ -2,7 +2,7 @@
 
 ![Project Preview](https://github.com/Rich627/SQL_Project/blob/main/%E8%B3%87%E6%96%99%E5%BA%AB%E5%B0%88%E6%A1%88.pdf)
 
-Welcome to my Car Factory Management System project! In this project, I developed a system using Java and MS SQL Server that can be utilized in a car factory or parking lot. This system allows for efficient management of vehicles, including features such as license plate tracking and pricing calculations based on parking duration.
+Welcome to my Parking Lot Management System project! In this project, I developed a system using Java and MS SQL Server that can be utilized in a car factory or parking lot. This system allows for efficient management of vehicles, including features such as license plate tracking and pricing calculations based on parking duration.
 
 ## System Overview
 
@@ -16,7 +16,7 @@ The Car Factory Management System is designed to streamline the operations of a 
 
 ## Project Presentation
 
-To gain a comprehensive understanding of the Car Factory Management System, please refer to our [project presentation](https://github.com/Rich627/SQL_Project/blob/main/%E8%B3%87%E6%96%99%E5%BA%AB%E5%B0%88%E6%A1%88.pdf). The presentation provides detailed insights into the system's architecture, functionalities, and user interface.
+To gain a comprehensive understanding of the Parking Lot Management System, please refer to our [project presentation](https://github.com/Rich627/SQL_Project/blob/main/%E8%B3%87%E6%96%99%E5%BA%AB%E5%B0%88%E6%A1%88.pdf). The presentation provides detailed insights into the system's architecture, functionalities, and user interface.
 
 ## Conclusion
 
